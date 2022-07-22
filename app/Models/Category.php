@@ -28,9 +28,5 @@ class Category extends Model
     ];
 
 
-    public function wow()
-    {
-        return 'your are wow';
-
-    }
+    
 }
