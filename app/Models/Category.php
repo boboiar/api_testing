@@ -26,4 +26,11 @@ class Category extends Model
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+
+    public function wow()
+    {
+        return 'your are wow';
+
+    }
 }
